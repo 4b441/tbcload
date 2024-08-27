@@ -7,7 +7,7 @@ test  .tbc file can be found [here](https://github.com/ActiveState/teapot/tree/m
 ## Install
 
 ``` shell
-go get github.com/corbamico/tbcload/tbcload
+go get github.com/4b441/tbcload/tbcload
 ```
 
 ## Usage
