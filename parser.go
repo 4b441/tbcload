@@ -173,7 +173,7 @@ func (p *Parser) parseSimpleObject() (err error) {
 	return
 }
 func (p *Parser) parseXStringObject() (err error) {
-	var buf [20480]byte
+	var buf [2048000]byte
 	var nRead int
 	var nLen int64
 	if nLen, err = p.parseIntLine(); err != nil {
@@ -276,7 +276,7 @@ func (p *Parser) parseAuxDataArray() (err error) {
 }
 
 func (p *Parser) parseCodeDelta() (err error) {
-	var buf [20480]byte
+	var buf [2048000]byte
 	var nRead int
 	var nRes int64
 	if nRes, err = p.parseIntLine(); err != nil {
@@ -300,7 +300,7 @@ func (p *Parser) parseCodeDelta() (err error) {
 	return
 }
 func (p *Parser) parseCodeLength() (err error) {
-	var buf [20480]byte
+	var buf [2048000]byte
 	var nRead int
 	var nRes int64
 	if nRes, err = p.parseIntLine(); err != nil {
@@ -352,7 +352,7 @@ func (p *Parser) parseCode() (err error) {
 
 // only conver asci85 to hex printing.
 func (p *Parser) parseHex() (err error) {
-	var buf [20480]byte
+	var buf [2048000]byte
 	var nRead int
 	if _, err = p.parseIntLine(); err != nil {
 		return
