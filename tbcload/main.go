@@ -20,7 +20,7 @@
 
 package main
 
-import "github.com/corbamico/4b441/tbcload/cmd"
+import "github.com/4b441/tbcload/tbcload/cmd"
 
 func main() {
 	cmd.Execute()
