@@ -19,7 +19,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/corbamico/tbcload"
+	"github.com/4b441/tbcload"
 	"github.com/spf13/cobra"
 )
 
