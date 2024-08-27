@@ -1,4 +1,4 @@
-module github.com/corbamico/tbcload
+module github.com/4b441/tbcload
 
 go 1.21.3
 
